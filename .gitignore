@@ -1,0 +1,43 @@
+# Ignorar carpetas generadas por Node.js
+node_modules/
+
+# Ignorar archivos de configuración locales
+.env
+
+# Ignorar archivos de registro
+logs/
+*.log
+
+# Ignorar archivos de construcción y distribución
+dist/
+build/
+
+# Ignorar archivos de dependencias y entornos
+*.yarn
+*.yarnrc
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Ignorar archivos de configuración de TypeScript
+tsconfig.json
+tsconfig.tsbuildinfo
+
+# Ignorar archivos de configuración de VSCode
+.vscode/
+
+# Ignorar archivos de prueba
+__tests__/
+test/
+tests/
+*.spec.js
+*.test.js
+
+# Ignorar archivos de respaldo y temporales
+*.bak
+*.swp
+*~
